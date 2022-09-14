@@ -1,0 +1,188 @@
+body{
+ 
+}
+
+/*
+SECTION
+*/
+
+section {
+    width: 80%;
+    margin: auto;
+    border-style: ridge;
+  }
+  
+  section h1{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+.colors {
+    border-style: double;
+  background-color: rgb(87, 87, 227);
+}
+
+/*
+BLOCS COULEURS
+*/
+.fonts {
+  border-style: double;
+ /* border: 4px;*/
+  background-color: rgb(89, 220, 177);
+}
+
+.texts {
+  border-style: double;
+  background-color: rgb(201, 186, 104);
+}
+
+.box #green,.box #yellow,.box #blue,.box #red{
+    width: 200px;
+    height: 80px;
+    border-style: dotted;
+      background-color:green;
+      display: inline-block;
+}
+
+.box #green{
+      background-color:green;
+      color: aliceblue;
+}
+
+.box #yellow{
+      background-color:yellow;
+    }
+
+.box #blue{
+    background-color:blue;
+    color: aliceblue;
+}
+
+.box #red{
+      background-color:red;
+      color: aliceblue;
+        }
+
+.box P{
+    text-align: center;
+}
+
+/*
+BLOC FONT
+*/
+
+#lobster,#libasker,#mmadi,#playfair{
+    padding: 25px;
+   /* padding-bottom: 35px;*/
+}
+    
+#lobster{
+    font-family: 'lobster', cursive;
+}
+
+#libasker{
+    font-family: 'Libre Baskerville', serif;
+}
+
+#mmadi{
+    font-family: 'Ms Madi', cursive;
+}
+
+#playfair{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.alfa2{
+    text-transform: uppercase;
+}
+
+.alfa1,.alfa2,.carac{
+    font-size: 25px; 
+}
+
+.tex1{
+    font-size: 10px;
+}
+
+.tex2{
+    font-size: 15px;
+}
+
+.tex3{
+    font-size: 20px;
+}
+
+.tex4{
+    font-size: 30px;
+}
+
+.tex5{
+    font-size: 35px;
+}
+
+.tex6{
+    font-size: 44px;
+}
+
+.lafont{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    background-color:grey;
+        border-style:dotted;
+}
+
+/*
+BLOC TEXTES
+*/
+.texts .intitule{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:32px;
+    font-weight:800;
+}
+
+.texts h1{
+font-size: 24px;
+font-weight: 800;
+}
+
+.texts h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.texts h3{
+    font-size: 14px;
+    font-weight: 800;
+    }
+
+.texts h4{
+font-style: italic;
+}
+
+.texts .titre{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.texts .sousTitre{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texts .important{
+    font-weight: 800;
+    color: red;
+}
+
+.texts hr{
+    width: 142px;
+}
